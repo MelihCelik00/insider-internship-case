@@ -1,0 +1,74 @@
+*{
+    font-family: Fjalla One;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: black;
+}
+
+html {
+    background-color:burlywood ;
+}
+
+.standings-table table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-align: center;
+}
+
+.standings-table {
+    margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #87ADDE;
+    color: black;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    display: block;
+}
+
+.winning-pos {
+    text-align: center;
+}
+
+.winning-pos td{
+    color: green;
+}
+
+.pos {
+    text-align: center;
+}
+
+.pos td{
+    color: #e05950;
+}
+
+table .col {
+    border-bottom: 3px solid black;
+}
+
+.winning-pos:hover {
+    background-color: green;
+}
+
+.winning-pos:hover td {
+    color: black;
+}
+
+.pos:hover {
+    background-color: #e05950;
+}
+
+.pos:hover td {
+    color: black;
+}
